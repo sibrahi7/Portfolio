@@ -1,0 +1,157 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* Body*/
+
+    body{
+        font-family: 'Poppins', sans-serif;
+        background-color: #0e0e0d;
+        color: #f0f0f0;
+        line-height: 2;
+        padding: 0 2rem;
+
+    }
+    h1,h2{
+        font-weight: 600;
+    }
+    /* Header  Styles*/
+        
+        header{
+        text-align: center;
+        font-weight: 700;
+        }
+    .title{
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 1rem 0;
+
+
+    }
+/*navigation*/
+nav.nav-links{
+    
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    gap: 1.2rem;
+    
+    list-style: none;
+}
+
+nav .nav-links a {
+
+    text-decoration: none;
+    color: #fbfbf7;
+    padding: 0.5rem 1 rem;
+    transition: 0.3s;
+}
+
+nav .nav-links a.btn {
+    background-color: #00adb5;;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+    
+
+nav a:hover{
+    background-color: #7da2a2;
+    transform: scale(1.05);
+
+
+}
+
+
+/* Hero section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    padding:  4rem 2rem;
+
+
+}
+
+/* Image */
+.image-box img{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    margin-bottom: 1rem;
+    height: auto;
+}
+
+    /* Intro */
+.intro {
+    max-width: 500px;
+    text-align: left;
+    padding-right: 0;
+    margin-right: 0;
+    flex: 1;
+
+}
+
+.intro h1{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    
+}
+.intro h2{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.intro h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+}
+intro p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+/* social*/
+.social a{
+    display: flex;
+    justify-content: left;
+    gap: 1.5;
+    font-size: 1.5rem;
+
+}
+.social a{
+    
+    margin: 0 0.5rem;
+    color: #df6f2a;
+    font-size: 1.5rem;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.socials a:hover {
+    color: #cc6039;
+}
+/* Responsive*/
+@media (max-width:768px){
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        padding: 40px 20px;
+
+}
+nav ul{
+    flex-direction: column;
+    gap: 1rem;
+}
+}
