@@ -10,16 +10,17 @@
         <!--font awesome for icons -->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-
         <!-- Google Fonts: Playfair Display with weights 500 and 700 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <link rel="stylesheet" href="style.css"/>
+        
+
     </head>
     <body>
         <header>
             <h1 class="title">FRONT-END DEVELOPER</h1>
             <br>
-            
-            
+
             <section class="hero">
                 <div class ="image-box">
                     <img src="image.jpeg" alt="Salma Ibrahim">
@@ -31,26 +32,46 @@
                     <P>a front-end developer passionate about turning ideas into clean, responsive, and interactive web experiences.
 
                         With a strong foundation in HTML, CSS, JavaScript, and modern frameworks, I specialize in building user-friendly interfaces that not only look good but feel right. Whether it’s crafting seamless navigation, optimizing performance, or breathing life into layouts with animations, I focus on the details that make the web delightful.
-                        
+
                         This portfolio is a glimpse into my journey as a developer — blending design with logic, creativity with code. Scroll through to see how I build, learn, and create with purpose.
                     </p>
                     <nav>
                         <ul class="nav-links">
-                        
-                        <a href="learnMore" class="btn">Learn More</a>
+                            <a href="#" class="btn" id="toggleLearnMore">Learn More</a>
                         </u>
                     </nav>
-                        <div class ="socials">
-                            <a href="#"><i class="fas fa-email"></i></a>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-github"></i></a>
-
-                        </div>
+                    
                 </div>
-
             </section>
-
         </header>
+
+<!-- Learn More Section -->
+<section id="learn-more" class="learn-more">
+    <h2>Learn About Me</h2>
+    <p>
+        I'm a curious and creative front-end developer who thrives on turning
+        ideas into beautiful, functional interfaces. Beyond code, I enjoy
+        dancing, working out, and mentoring students. I'm passionate about
+        building inclusive, user-centered digital experiences that make life
+        easier and more meaningful. One interesting thing about me is I look thinner than I actually weight.
+    </p>
+    <div class="buttons">
+        <a href="pro resume.pdf" class="btn" download>📄 Download CV</a>
+        <!--<a href="contact" class="btn">📬 Contact Me</a>-->
+    </div>
+    <div id="contact" class="socials">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sibrahi7@emich.edu" target="_blank" title="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/sibrahi7" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/salma-ibrahim-maysha/" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+</section>
+
         <script src="script.js"></script>
     </body>
 </html>
